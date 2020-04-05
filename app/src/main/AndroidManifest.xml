@@ -9,17 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Main3Activity">
+        <activity android:name=".Week9Ques2"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Ques2T3" />
-        <activity android:name=".Week4">
+        <activity android:name=".Week9Ques1">
 
         </activity>
+        <activity android:name=".Ques2T3" />
+        <activity android:name=".Week4"></activity>
         <activity android:name=".CalculatorActivity" />
         <activity android:name=".TUTE3Activity" />
         <activity android:name=".MainActivity" />

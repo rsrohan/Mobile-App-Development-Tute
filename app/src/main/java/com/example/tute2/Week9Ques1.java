@@ -8,7 +8,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Main3Activity extends AppCompatActivity {
+public class Week9Ques1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,19 +22,19 @@ public class Main3Activity extends AppCompatActivity {
                 {
                     if(hourOfDay>=13)
                     {
-                        Toast.makeText(Main3Activity.this, "Time selected is "+(hourOfDay-12)+" : "+minute+" PM", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Week9Ques1.this, "Time selected is "+(hourOfDay-12)+" : "+minute+" PM", Toast.LENGTH_SHORT).show();
 
                     }else{
-                        Toast.makeText(Main3Activity.this, "Time selected is "+(hourOfDay)+":"+minute+" PM", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Week9Ques1.this, "Time selected is "+(hourOfDay)+":"+minute+" PM", Toast.LENGTH_SHORT).show();
                     }
 
                 }else{
                     if (hourOfDay==0)
                     {
-                        Toast.makeText(Main3Activity.this, "Time selected is "+(hourOfDay+12)+":"+minute+" AM", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Week9Ques1.this, "Time selected is "+(hourOfDay+12)+":"+minute+" AM", Toast.LENGTH_SHORT).show();
 
                     }else{
-                        Toast.makeText(Main3Activity.this, "Time selected is "+(hourOfDay)+":"+minute+" AM", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Week9Ques1.this, "Time selected is "+(hourOfDay)+":"+minute+" AM", Toast.LENGTH_SHORT).show();
 
                     }
 
