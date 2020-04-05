@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tute2</string>
+    <string-array name="planets_array">
+        <item>172.16.120.10</item>
+        <item>123.456.67</item>
+        <item>123.654.33</item>
+        <item>788.777.777</item>
+    </string-array>
+</resources>
